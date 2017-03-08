@@ -28,7 +28,7 @@
 ###Cross Validation
 
 sklearn.model_selection.KFold
-```
+```python
 ss = KFold(n_splits=10, shuffle=True) # 10Fold-CV
 ```
 
@@ -37,11 +37,11 @@ sklearn.model_selection.StratifiedKFold
 
 K分ループを回す関数が既に用意されている  
 sklearn.model_selection.cross_val_score
-```
+```python
 ave_score = cross_val_score(clf, X, y, cv=10) # StratifiedKFold
 ```
 は下記と一緒
-```
+```python
 from sklearn.model_selection import StratifiedKFold
 ss = StratifiedKFold(n_splits=10, shuffle=True)
 

@@ -20,12 +20,11 @@
 
 ----
 
-## sckit-learnに用意されているオブジェクト
-### ShuffleSplit
+##  ランダムなデータ抽出(ShuffleSplit)
 - sklearn.model_selection.ShuffleSplit : ランダムなデータ抽出を行う
 - sklearn.model_selection.StratifiedShuffleSplit : クラスの比率を保ったままランダムなデータ抽出を行う
 
-###Cross Validation
+## Cross Validation
 
 sklearn.model_selection.KFold
 ```python
@@ -51,3 +50,14 @@ for train_index, test_index in ss.split(X, y):
     print(np.unique(y_train, return_counts=True)[1] / y_train.size, y_train.size,
           np.unique(y_test,  return_counts=True)[1] / y_test.size,  y_test.size)
 ```
+
+## Leave-One-Out
+- sklearn.model_selection.LeaveOneOut: 1件ずつテストデータに使用する。
+- sklearn.model_selection.LeavePOut : テストデータの数Pを指定できる。
+- sklearn.model_selection.LeaveOneGroupOut
+
+## 学習データのなかから検証データを用意する
+パラメータ調整のために、学習データを訓練データと検証データに分ける。  
+パラメータを調整して学習を繰り返し、一番性能のよいパラメータを探す。  
+テストデータは、最後の評価用にとっておく。
+

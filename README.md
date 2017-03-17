@@ -14,6 +14,7 @@ https://github.com/nesheep5/study-scikit-learn-by-udemy/tree/master/sc04
 ### セクション 5 データから特徴量へ
 https://github.com/nesheep5/study-scikit-learn-by-udemy/tree/master/sc05
 ### セクション 6 テストデータの評価方法
+https://github.com/nesheep5/study-scikit-learn-by-udemy/tree/master/sc06
 ### セクション 7 いろいろな識別器
 ### セクション 8 パラメータ調整
 ### セクション 9 学習サンプル数が多いとき

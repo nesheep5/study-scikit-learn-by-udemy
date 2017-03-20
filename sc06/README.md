@@ -13,3 +13,15 @@
 sklearnで用意されているクラス
 - sklearn.metrics.accuracy_score
 - sklearn.metrics.confusion_matrix
+
+## classification_report
+sklearn.metrics.classification_reportを使って、以下のレポートを出すことができる
+### precision 適合度，精度
+TP / (TP + FP) で表す。  
+
+### recall 再現率
+TP / (TP + FN) で表す。  
+True positive rate (TPR)
+2クラス問題のときは 0:sensitivity 感度 / 1:specificity 特異度 と表現されることもある。
+
+### f1-score

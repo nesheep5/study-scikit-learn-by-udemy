@@ -25,3 +25,9 @@ True positive rate (TPR)
 2クラス問題のときは 0:sensitivity 感度 / 1:specificity 特異度 と表現されることもある。
 
 ### f1-score
+各クラスでprecisionもrecallも良い数値を出しているかを表す指標。F値とも呼ばれる。  
+ 2 / (1/recall + 1/precision)で表す。
+
+以下のようなクラスが用意されている
+ - sklearn.metrics.f1_score
+ - sklearn.metrics.fbeta_score

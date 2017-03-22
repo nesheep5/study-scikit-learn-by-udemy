@@ -16,6 +16,7 @@ sklearnで用意されているクラス
 
 ## classification_report
 sklearn.metrics.classification_reportを使って、以下のレポートを出すことができる
+
 ### precision 適合度，精度
 TP / (TP + FP) で表す。  
 
@@ -31,3 +32,11 @@ True positive rate (TPR)
 以下のようなクラスが用意されている
  - sklearn.metrics.f1_score
  - sklearn.metrics.fbeta_score
+
+### 上記情報をまとめて取得
+以下のクラスを使うとまとめて情報取得できる
+ - sklearn.metrics.precision_recall_fscore_support
+
+## 性能評価
+- ROC (Receiver Operating Characteristic) : 縦軸にTrue Positive、横軸にFalse Positiveの割合を2次元プロットして点を線で連結した曲線
+- AUC (Area Under the Curve) : ROC曲線の曲線よりしたの面積。分類器の精度評価に使う

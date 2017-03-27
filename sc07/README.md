@@ -16,3 +16,10 @@
 ある点に近い順のサンプルk点を求め多数決で決定する
 - sklearn.neighbors.KNeighborsClassifier
 - sklearn.neighbors.RadiusNeighborsRegressor
+
+## パーセプトロン
+ある２つのクラス群の境界を求める。
+- sklearn.linear_model.Perceptron
+
+### 学習則
+### 損失関数

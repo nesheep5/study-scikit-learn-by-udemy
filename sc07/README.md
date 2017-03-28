@@ -18,7 +18,7 @@
 - sklearn.neighbors.RadiusNeighborsRegressor
 
 ## パーセプトロン
-ある２つのクラス群の境界を求める。
+ある２つのクラス群の境界を線形に求める。
 - sklearn.linear_model.Perceptron
 
 ### 学習則

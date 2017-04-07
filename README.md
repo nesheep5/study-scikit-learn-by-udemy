@@ -20,5 +20,6 @@ https://github.com/nesheep5/study-scikit-learn-by-udemy/tree/master/sc07
 ### セクション 8 パラメータ調整
 https://github.com/nesheep5/study-scikit-learn-by-udemy/tree/master/sc08
 ### セクション 9 学習サンプル数が多いとき
+https://github.com/nesheep5/study-scikit-learn-by-udemy/tree/master/sc09
 ### セクション 10 例題
 ### セクション 11 おわりに

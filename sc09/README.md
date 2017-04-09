@@ -5,3 +5,6 @@
 -  sklearn.svm.LinearSVC
 ### ソルバの指定
 ソルバはprimal,dualを選択することができる。dualは特徴量が多いときに有効。primalはサンプル数が多いときに有効。
+
+## 確率勾配法（SGD）
+LinearSVCよりも高速に識別することができる。
